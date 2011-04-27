@@ -12,3 +12,7 @@ build/*
 .DS_Store
 
 .gitignore~
+PreviewSlider.xcodeproj/project.xcworkspace/xcuserdata/paoloquadrani.xcuserdatad/UserInterfaceState.xcuserstate
+PreviewSlider.xcodeproj/xcuserdata/paoloquadrani.xcuserdatad/xcdebugger/Breakpoints.xcbkptlist
+PreviewSlider.xcodeproj/xcuserdata/paoloquadrani.xcuserdatad/xcschemes/PreviewSlider.xcscheme
+PreviewSlider.xcodeproj/xcuserdata/paoloquadrani.xcuserdatad/xcschemes/xcschememanagement.plist
