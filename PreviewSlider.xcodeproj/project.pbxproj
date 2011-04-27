@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50443522135F672400C3574A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50443521135F672400C3574A /* UIKit.framework */; };
+		50443524135F672400C3574A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50443523135F672400C3574A /* Foundation.framework */; };
+		50443526135F672400C3574A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50443525135F672400C3574A /* CoreGraphics.framework */; };
+		5044352C135F672400C3574A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5044352A135F672400C3574A /* InfoPlist.strings */; };
+		5044352F135F672400C3574A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5044352E135F672400C3574A /* main.m */; };
+		50443532135F672400C3574A /* PreviewSliderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50443531135F672400C3574A /* PreviewSliderAppDelegate.m */; };
+		50443535135F672400C3574A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50443533135F672400C3574A /* MainWindow.xib */; };
+		50443538135F672400C3574A /* PreviewSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50443537135F672400C3574A /* PreviewSliderViewController.m */; };
+		5044353B135F672400C3574A /* PreviewSliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50443539135F672400C3574A /* PreviewSliderViewController.xib */; };
+		50443544135F673200C3574A /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50443542135F673200C3574A /* MainWindow-iPad.xib */; };
+		5044354E135F684E00C3574A /* PQSliderPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 5044354D135F684E00C3574A /* PQSliderPreview.m */; };
+		50E1B4DA13605E6F00DF4228 /* PQSliderPreview.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B4D913605E6F00DF4228 /* PQSliderPreview.pdf */; };
+		50E1B4ED13606CE800DF4228 /* PQSliderPreview-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B4DE13606CE800DF4228 /* PQSliderPreview-01.png */; };
+		50E1B4EE13606CE800DF4228 /* PQSliderPreview-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B4DF13606CE800DF4228 /* PQSliderPreview-02.png */; };
+		50E1B4EF13606CE800DF4228 /* PQSliderPreview-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B4E013606CE800DF4228 /* PQSliderPreview-03.png */; };
+		50E1B4F013606CE800DF4228 /* PQSliderPreview-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B4E113606CE800DF4228 /* PQSliderPreview-04.png */; };
+		50E1B4F113606CE800DF4228 /* PQSliderPreview-05.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B4E213606CE800DF4228 /* PQSliderPreview-05.png */; };
+		50E1B4F213606CE800DF4228 /* PQSliderPreview-06.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B4E313606CE800DF4228 /* PQSliderPreview-06.png */; };
+		50E1B4F313606CE800DF4228 /* PQSliderPreview-07.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B4E413606CE800DF4228 /* PQSliderPreview-07.png */; };
+		50E1B4F413606CE800DF4228 /* PQSliderPreview-08.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B4E513606CE800DF4228 /* PQSliderPreview-08.png */; };
+		50E1B4F513606CE800DF4228 /* PQSliderPreview-09.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B4E613606CE800DF4228 /* PQSliderPreview-09.png */; };
+		50E1B4F613606CE800DF4228 /* PQSliderPreview-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B4E713606CE800DF4228 /* PQSliderPreview-10.png */; };
+		50E1B4F713606CE800DF4228 /* PQSliderPreview-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B4E813606CE800DF4228 /* PQSliderPreview-11.png */; };
+		50E1B4F813606CE800DF4228 /* PQSliderPreview-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B4E913606CE800DF4228 /* PQSliderPreview-12.png */; };
+		50E1B4F913606CE800DF4228 /* PQSliderPreview-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B4EA13606CE800DF4228 /* PQSliderPreview-13.png */; };
+		50E1B4FA13606CE800DF4228 /* PQSliderPreview-14.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B4EB13606CE800DF4228 /* PQSliderPreview-14.png */; };
+		50E1B4FB13606CE800DF4228 /* PQSliderPreview-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B4EC13606CE800DF4228 /* PQSliderPreview-15.png */; };
+		50E1B50B1360838000DF4228 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B50A1360838000DF4228 /* ReadMe.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5044351D135F672400C3574A /* PreviewSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreviewSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50443521135F672400C3574A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50443523135F672400C3574A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50443525135F672400C3574A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50443529135F672400C3574A /* PreviewSlider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PreviewSlider-Info.plist"; sourceTree = "<group>"; };
+		5044352B135F672400C3574A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5044352D135F672400C3574A /* PreviewSlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PreviewSlider-Prefix.pch"; sourceTree = "<group>"; };
+		5044352E135F672400C3574A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50443530135F672400C3574A /* PreviewSliderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreviewSliderAppDelegate.h; sourceTree = "<group>"; };
+		50443531135F672400C3574A /* PreviewSliderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreviewSliderAppDelegate.m; sourceTree = "<group>"; };
+		50443534135F672400C3574A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		50443536135F672400C3574A /* PreviewSliderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreviewSliderViewController.h; sourceTree = "<group>"; };
+		50443537135F672400C3574A /* PreviewSliderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreviewSliderViewController.m; sourceTree = "<group>"; };
+		5044353A135F672400C3574A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PreviewSliderViewController.xib; sourceTree = "<group>"; };
+		50443543135F673200C3574A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		5044354C135F684E00C3574A /* PQSliderPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQSliderPreview.h; sourceTree = "<group>"; };
+		5044354D135F684E00C3574A /* PQSliderPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQSliderPreview.m; sourceTree = "<group>"; };
+		50E1B4D913605E6F00DF4228 /* PQSliderPreview.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PQSliderPreview.pdf; sourceTree = "<group>"; };
+		50E1B4DE13606CE800DF4228 /* PQSliderPreview-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PQSliderPreview-01.png"; sourceTree = "<group>"; };
+		50E1B4DF13606CE800DF4228 /* PQSliderPreview-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PQSliderPreview-02.png"; sourceTree = "<group>"; };
+		50E1B4E013606CE800DF4228 /* PQSliderPreview-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PQSliderPreview-03.png"; sourceTree = "<group>"; };
+		50E1B4E113606CE800DF4228 /* PQSliderPreview-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PQSliderPreview-04.png"; sourceTree = "<group>"; };
+		50E1B4E213606CE800DF4228 /* PQSliderPreview-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PQSliderPreview-05.png"; sourceTree = "<group>"; };
+		50E1B4E313606CE800DF4228 /* PQSliderPreview-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PQSliderPreview-06.png"; sourceTree = "<group>"; };
+		50E1B4E413606CE800DF4228 /* PQSliderPreview-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PQSliderPreview-07.png"; sourceTree = "<group>"; };
+		50E1B4E513606CE800DF4228 /* PQSliderPreview-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PQSliderPreview-08.png"; sourceTree = "<group>"; };
+		50E1B4E613606CE800DF4228 /* PQSliderPreview-09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PQSliderPreview-09.png"; sourceTree = "<group>"; };
+		50E1B4E713606CE800DF4228 /* PQSliderPreview-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PQSliderPreview-10.png"; sourceTree = "<group>"; };
+		50E1B4E813606CE800DF4228 /* PQSliderPreview-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PQSliderPreview-11.png"; sourceTree = "<group>"; };
+		50E1B4E913606CE800DF4228 /* PQSliderPreview-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PQSliderPreview-12.png"; sourceTree = "<group>"; };
+		50E1B4EA13606CE800DF4228 /* PQSliderPreview-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PQSliderPreview-13.png"; sourceTree = "<group>"; };
+		50E1B4EB13606CE800DF4228 /* PQSliderPreview-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PQSliderPreview-14.png"; sourceTree = "<group>"; };
+		50E1B4EC13606CE800DF4228 /* PQSliderPreview-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PQSliderPreview-15.png"; sourceTree = "<group>"; };
+		50E1B50A1360838000DF4228 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ReadMe.txt; path = ../ReadMe.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5044351A135F672400C3574A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50443522135F672400C3574A /* UIKit.framework in Frameworks */,
+				50443524135F672400C3574A /* Foundation.framework in Frameworks */,
+				50443526135F672400C3574A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50443512135F672400C3574A = {
+			isa = PBXGroup;
+			children = (
+				50443527135F672400C3574A /* PreviewSlider */,
+				50443520135F672400C3574A /* Frameworks */,
+				5044351E135F672400C3574A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5044351E135F672400C3574A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5044351D135F672400C3574A /* PreviewSlider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50443520135F672400C3574A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50443521135F672400C3574A /* UIKit.framework */,
+				50443523135F672400C3574A /* Foundation.framework */,
+				50443525135F672400C3574A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50443527135F672400C3574A /* PreviewSlider */ = {
+			isa = PBXGroup;
+			children = (
+				50443545135F677700C3574A /* Slider */,
+				50443541135F673200C3574A /* iPad */,
+				50443530135F672400C3574A /* PreviewSliderAppDelegate.h */,
+				50443531135F672400C3574A /* PreviewSliderAppDelegate.m */,
+				50443533135F672400C3574A /* MainWindow.xib */,
+				50443536135F672400C3574A /* PreviewSliderViewController.h */,
+				50443537135F672400C3574A /* PreviewSliderViewController.m */,
+				50443539135F672400C3574A /* PreviewSliderViewController.xib */,
+				50443528135F672400C3574A /* Supporting Files */,
+			);
+			path = PreviewSlider;
+			sourceTree = "<group>";
+		};
+		50443528135F672400C3574A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50E1B4D813605E6F00DF4228 /* TestData */,
+				50443529135F672400C3574A /* PreviewSlider-Info.plist */,
+				5044352A135F672400C3574A /* InfoPlist.strings */,
+				5044352D135F672400C3574A /* PreviewSlider-Prefix.pch */,
+				5044352E135F672400C3574A /* main.m */,
+				50E1B50A1360838000DF4228 /* ReadMe.txt */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50443541135F673200C3574A /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				50443542135F673200C3574A /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		50443545135F677700C3574A /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				5044354C135F684E00C3574A /* PQSliderPreview.h */,
+				5044354D135F684E00C3574A /* PQSliderPreview.m */,
+			);
+			name = Slider;
+			sourceTree = "<group>";
+		};
+		50E1B4D813605E6F00DF4228 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				50E1B4DE13606CE800DF4228 /* PQSliderPreview-01.png */,
+				50E1B4DF13606CE800DF4228 /* PQSliderPreview-02.png */,
+				50E1B4E013606CE800DF4228 /* PQSliderPreview-03.png */,
+				50E1B4E113606CE800DF4228 /* PQSliderPreview-04.png */,
+				50E1B4E213606CE800DF4228 /* PQSliderPreview-05.png */,
+				50E1B4E313606CE800DF4228 /* PQSliderPreview-06.png */,
+				50E1B4E413606CE800DF4228 /* PQSliderPreview-07.png */,
+				50E1B4E513606CE800DF4228 /* PQSliderPreview-08.png */,
+				50E1B4E613606CE800DF4228 /* PQSliderPreview-09.png */,
+				50E1B4E713606CE800DF4228 /* PQSliderPreview-10.png */,
+				50E1B4E813606CE800DF4228 /* PQSliderPreview-11.png */,
+				50E1B4E913606CE800DF4228 /* PQSliderPreview-12.png */,
+				50E1B4EA13606CE800DF4228 /* PQSliderPreview-13.png */,
+				50E1B4EB13606CE800DF4228 /* PQSliderPreview-14.png */,
+				50E1B4EC13606CE800DF4228 /* PQSliderPreview-15.png */,
+				50E1B4D913605E6F00DF4228 /* PQSliderPreview.pdf */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5044351C135F672400C3574A /* PreviewSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5044353E135F672400C3574A /* Build configuration list for PBXNativeTarget "PreviewSlider" */;
+			buildPhases = (
+				50443519135F672400C3574A /* Sources */,
+				5044351A135F672400C3574A /* Frameworks */,
+				5044351B135F672400C3574A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PreviewSlider;
+			productName = PreviewSlider;
+			productReference = 5044351D135F672400C3574A /* PreviewSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50443514135F672400C3574A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Paolo Quadrani";
+			};
+			buildConfigurationList = 50443517135F672400C3574A /* Build configuration list for PBXProject "PreviewSlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50443512135F672400C3574A;
+			productRefGroup = 5044351E135F672400C3574A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5044351C135F672400C3574A /* PreviewSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5044351B135F672400C3574A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5044352C135F672400C3574A /* InfoPlist.strings in Resources */,
+				50443535135F672400C3574A /* MainWindow.xib in Resources */,
+				5044353B135F672400C3574A /* PreviewSliderViewController.xib in Resources */,
+				50443544135F673200C3574A /* MainWindow-iPad.xib in Resources */,
+				50E1B4DA13605E6F00DF4228 /* PQSliderPreview.pdf in Resources */,
+				50E1B4ED13606CE800DF4228 /* PQSliderPreview-01.png in Resources */,
+				50E1B4EE13606CE800DF4228 /* PQSliderPreview-02.png in Resources */,
+				50E1B4EF13606CE800DF4228 /* PQSliderPreview-03.png in Resources */,
+				50E1B4F013606CE800DF4228 /* PQSliderPreview-04.png in Resources */,
+				50E1B4F113606CE800DF4228 /* PQSliderPreview-05.png in Resources */,
+				50E1B4F213606CE800DF4228 /* PQSliderPreview-06.png in Resources */,
+				50E1B4F313606CE800DF4228 /* PQSliderPreview-07.png in Resources */,
+				50E1B4F413606CE800DF4228 /* PQSliderPreview-08.png in Resources */,
+				50E1B4F513606CE800DF4228 /* PQSliderPreview-09.png in Resources */,
+				50E1B4F613606CE800DF4228 /* PQSliderPreview-10.png in Resources */,
+				50E1B4F713606CE800DF4228 /* PQSliderPreview-11.png in Resources */,
+				50E1B4F813606CE800DF4228 /* PQSliderPreview-12.png in Resources */,
+				50E1B4F913606CE800DF4228 /* PQSliderPreview-13.png in Resources */,
+				50E1B4FA13606CE800DF4228 /* PQSliderPreview-14.png in Resources */,
+				50E1B4FB13606CE800DF4228 /* PQSliderPreview-15.png in Resources */,
+				50E1B50B1360838000DF4228 /* ReadMe.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50443519135F672400C3574A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5044352F135F672400C3574A /* main.m in Sources */,
+				50443532135F672400C3574A /* PreviewSliderAppDelegate.m in Sources */,
+				50443538135F672400C3574A /* PreviewSliderViewController.m in Sources */,
+				5044354E135F684E00C3574A /* PQSliderPreview.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5044352A135F672400C3574A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5044352B135F672400C3574A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50443533135F672400C3574A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50443534135F672400C3574A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		50443539135F672400C3574A /* PreviewSliderViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5044353A135F672400C3574A /* en */,
+			);
+			name = PreviewSliderViewController.xib;
+			sourceTree = "<group>";
+		};
+		50443542135F673200C3574A /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50443543135F673200C3574A /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5044353C135F672400C3574A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5044353D135F672400C3574A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		5044353F135F672400C3574A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreviewSlider/PreviewSlider-Prefix.pch";
+				INFOPLIST_FILE = "PreviewSlider/PreviewSlider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50443540135F672400C3574A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreviewSlider/PreviewSlider-Prefix.pch";
+				INFOPLIST_FILE = "PreviewSlider/PreviewSlider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50443517135F672400C3574A /* Build configuration list for PBXProject "PreviewSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5044353C135F672400C3574A /* Debug */,
+				5044353D135F672400C3574A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5044353E135F672400C3574A /* Build configuration list for PBXNativeTarget "PreviewSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5044353F135F672400C3574A /* Debug */,
+				50443540135F672400C3574A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50443514135F672400C3574A /* Project object */;
+}
