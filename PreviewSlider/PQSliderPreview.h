@@ -23,7 +23,7 @@ typedef enum {
 } PQSliderErrorCode;
 
 
-/// UISlider subclass to define the slider that allows to preview image array or pages of a PDF document.
+/// UISlider subclass to define a slider that allows to preview image array or pages of a PDF document.
 /**
  Class PQSliderPreview
  The PQSliderPreview allows you to perform a preview of an array of path to the images 
