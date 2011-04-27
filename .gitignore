@@ -1,0 +1,14 @@
+# xcode noise
+
+build/*
+*.pbxuser
+*.perspectivev3
+*.mode1v3
+
+# old skool
+.svn
+
+# osx noise
+.DS_Store
+
+.gitignore~
