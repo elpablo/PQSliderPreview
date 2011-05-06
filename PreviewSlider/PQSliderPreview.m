@@ -144,6 +144,7 @@
 - (BOOL)previewPDF:(NSString *)path withPassword:(NSString *)pwd error:(NSError **)error {
     NSURL *pdfURL = [NSURL fileURLWithPath:path];
     _pdf = CGPDFDocumentCreateWithURL((CFURLRef)pdfURL);
+    CFRetain(_pdf);
     BOOL res = YES;
     
 	if (_pdf == nil) {
@@ -209,6 +210,11 @@
             [self setMaximumValue:[_contentArray count]-1];
             [self setValue:0.];
             _lastIndex = -1;
+        }
+        
+        if (_pdf != NULL) {
+            CFRelease(_pdf);
+            _pdf = NULL;
         }
     }
     return res;
