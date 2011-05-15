@@ -53,7 +53,7 @@
 
 @implementation PQSliderPreview
 
-@synthesize lastIndex = _lastIndex;
+@synthesize lastIndexPreviewed = _lastIndexPreviewed;
 
 - (id)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
@@ -75,7 +75,7 @@
 - (void)_initializeProperties {
     _generatingPreview = NO;
     self.value = 0.;
-    _lastIndex = -1; // invalidate the last index updated.
+    _lastIndexPreviewed = -1; // invalidate the last index updated.
     
     [self addTarget:self action:@selector(valueChanged) forControlEvents:UIControlEventValueChanged];
     [self addTarget:self action:@selector(hidePreview) forControlEvents:UIControlEventTouchUpInside];
@@ -141,7 +141,7 @@
     }
 }
 
-- (BOOL)previewPDF:(NSString *)path withPassword:(NSString *)pwd error:(NSError **)error {
+- (BOOL)pdfPath:(NSString *)path pdfPassword:(NSString *)pwd error:(NSError **)error {
     NSURL *pdfURL = [NSURL fileURLWithPath:path];
     _pdf = CGPDFDocumentCreateWithURL((CFURLRef)pdfURL);
     CFRetain(_pdf);
@@ -180,12 +180,12 @@
     return res;
 }
 
-- (BOOL)previewImages:(NSArray *)imagesPath error:(NSError **)error {
+- (BOOL)imagesPathArray:(NSArray *)path error:(NSError **)error {
     BOOL res = YES;
-    if (imagesPath != _contentArray) {
+    if (path != _contentArray) {
         // Check the existance of image path.
         NSFileManager *manager = [NSFileManager defaultManager];
-        for (NSString *f in imagesPath) {
+        for (NSString *f in path) {
             if ([manager fileExistsAtPath:f] == NO) {
                 if (error != NULL) {
                     *error = [NSError errorWithDomain:@"PQSliderPreview"
@@ -199,7 +199,7 @@
 
         if (res == YES) {
             [_contentArray release];
-            _contentArray = [imagesPath mutableCopy];
+            _contentArray = [path mutableCopy];
             
             if (_pdf) {
                 CFRelease(_pdf);
@@ -209,7 +209,7 @@
             [self setMinimumValue:0.];
             [self setMaximumValue:[_contentArray count]-1];
             [self setValue:0.];
-            _lastIndex = -1;
+            _lastIndexPreviewed = -1;
         }
         
         if (_pdf != NULL) {
@@ -234,7 +234,7 @@
 }
 
 - (void)_updatePreviewAtIndex:(NSInteger)index {
-    if (index == _lastIndex || _generatingPreview) {
+    if (index == _lastIndexPreviewed || _generatingPreview) {
         return;
     }
     if (_pdf) {
@@ -246,7 +246,7 @@
     } else {
         NSLog(@"Nothing to preview at index %d", index);
     }
-    _lastIndex = index;
+    _lastIndexPreviewed = index;
 }
 
 #pragma mark - Thumb preview creation

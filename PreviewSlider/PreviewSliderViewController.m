@@ -69,7 +69,7 @@
 
 - (void)lastPreviewedImage:(PQSliderPreview *)sender {
     NSString *slider = sender.tag ? @"PDF Previewer" : @"Image Previewer";
-    NSLog(@"'%@' - Last previewed index: %d", slider, sender.lastIndex);
+    NSLog(@"'%@' - Last previewed index: %d", slider, sender.lastIndexPreviewed);
 }
 
 - (IBAction)swapContent:(id)sender {
@@ -90,7 +90,7 @@
 
 - (void)_initializeImageSlider:(PQSliderPreview *)slider {
     NSError *e;
-    if ([slider previewImages:images error:&e] == NO) {
+    if ([slider imagesPathArray:images error:&e] == NO) {
         // Some error occourred; do something to notify the user...
         NSLog(@"%@", [e localizedDescription]);
     }
@@ -98,7 +98,7 @@
 
 - (void)_initializePDFSlider:(PQSliderPreview *)slider {
     NSError *e;
-    if ([slider previewPDF:pdfPath withPassword:nil error:&e] == NO) {
+    if ([slider pdfPath:pdfPath pdfPassword:nil error:&e] == NO) {
         // Some error occourred; do something to notify the user...
         NSLog(@"%@", [e localizedDescription]);
     }
