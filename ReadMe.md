@@ -33,7 +33,7 @@ or
 ### Example Usage
 Example code is shown in the PreviewSliderViewController.m
 
-The class is fullly documented using Doxygen style.
+The class is fully documented using Doxygen style.
 
 If you use the class into one or more of your project, please let me know
 so we can cross link the project references.
