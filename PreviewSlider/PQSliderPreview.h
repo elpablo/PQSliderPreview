@@ -44,7 +44,7 @@ typedef enum {
 @package
     NSMutableArray   *_contentArray;     ///< Array of items from which show the preview.
     UIImageView      *_imageViewPreview; ///< UIImageView that will show the preview image.
-    int              _lastIndexPreviewed;///< Last index updated for the current array.
+    NSInteger        _lastIndexPreviewed;///< Last index updated for the current array.
     CGPDFDocumentRef _pdf;               ///< PDF Document from which extract pages to perform the preview.
     CGFloat          _yCoordPreview;     ///< y coordinate of the UIImageView that show the preview image.
     BOOL             _generatingPreview; ///< Flag that indicate that the preview image is going to be generated.
