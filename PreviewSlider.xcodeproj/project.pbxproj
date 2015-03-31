@@ -34,7 +34,6 @@
 		50E1B4F913606CE800DF4228 /* PQSliderPreview-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B4EA13606CE800DF4228 /* PQSliderPreview-13.png */; };
 		50E1B4FA13606CE800DF4228 /* PQSliderPreview-14.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B4EB13606CE800DF4228 /* PQSliderPreview-14.png */; };
 		50E1B4FB13606CE800DF4228 /* PQSliderPreview-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B4EC13606CE800DF4228 /* PQSliderPreview-15.png */; };
-		50E1B50B1360838000DF4228 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B50A1360838000DF4228 /* ReadMe.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -210,6 +209,7 @@
 		50443514135F672400C3574A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Paolo Quadrani";
 			};
 			buildConfigurationList = 50443517135F672400C3574A /* Build configuration list for PBXProject "PreviewSlider" */;
@@ -254,7 +254,6 @@
 				50E1B4F913606CE800DF4228 /* PQSliderPreview-13.png in Resources */,
 				50E1B4FA13606CE800DF4228 /* PQSliderPreview-14.png in Resources */,
 				50E1B4FB13606CE800DF4228 /* PQSliderPreview-15.png in Resources */,
-				50E1B50B1360838000DF4228 /* ReadMe.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +312,6 @@
 		5044353C135F672400C3574A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -323,6 +321,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -330,7 +329,6 @@
 		5044353D135F672400C3574A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
@@ -350,6 +348,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PreviewSlider/PreviewSlider-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "PreviewSlider/PreviewSlider-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -365,6 +364,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PreviewSlider/PreviewSlider-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "PreviewSlider/PreviewSlider-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
