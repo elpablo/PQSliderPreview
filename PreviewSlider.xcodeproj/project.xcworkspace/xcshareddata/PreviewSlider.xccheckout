@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FBCA7572-53DE-4A41-B5FB-0B4542A73F68</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PreviewSlider</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C026961D8CC69628D8DD4709C7F2A06ABC3236C6</key>
+		<string>github.com:elpablo/PQSliderPreview.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PreviewSlider.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C026961D8CC69628D8DD4709C7F2A06ABC3236C6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:elpablo/PQSliderPreview.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C026961D8CC69628D8DD4709C7F2A06ABC3236C6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C026961D8CC69628D8DD4709C7F2A06ABC3236C6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PQSliderPreview</string>
+		</dict>
+	</array>
+</dict>
+</plist>
