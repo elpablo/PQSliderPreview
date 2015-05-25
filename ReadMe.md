@@ -4,6 +4,7 @@ PQSliderPreview  -  UISlider subclass
 
 [![Twitter: @KauseFx](http://img.shields.io/badge/contact-@quadrani-blue.svg?style=flat)](https://twitter.com/quadrani)
 [![License](https://img.shields.io/hexpm/l/plug.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
+[![Build Status](https://travis-ci.org/elpablo/PQSliderPreview.svg?branch=master)](https://travis-ci.org/elpablo/PQSliderPreview)
 
 
 -------
