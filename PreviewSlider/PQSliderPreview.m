@@ -239,12 +239,12 @@
     }
     if (_pdf) {
         // Preview PDF document's pages...
-        [NSThread detachNewThreadSelector:@selector(_createPreviewForPDFPage:) toTarget:self withObject:[NSNumber numberWithInt:index]];
+        [NSThread detachNewThreadSelector:@selector(_createPreviewForPDFPage:) toTarget:self withObject:[NSNumber numberWithLong:index]];
     } else if ([_contentArray count] > 0) {
         // Preview Images...
-        [NSThread detachNewThreadSelector:@selector(_createPreviewForImage:) toTarget:self withObject:[NSNumber numberWithInt:index]];
+        [NSThread detachNewThreadSelector:@selector(_createPreviewForImage:) toTarget:self withObject:[NSNumber numberWithLong:index]];
     } else {
-        NSLog(@"Nothing to preview at index %d", index);
+        NSLog(@"Nothing to preview at index %ld", (long)index);
     }
     _lastIndexPreviewed = index;
 }
