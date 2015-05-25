@@ -1,3 +1,5 @@
 language: objective-c
-script:
-- xcodebuild -project PreviewSlider.xcodeproj -scheme PreviewSlider -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO test
+xcode_project: PreviewSlider.xcodeproj # path to your xcodeproj folder
+xcode_scheme: PreviewSlider
+#script:
+#- xcodebuild -project PreviewSlider.xcodeproj -scheme PreviewSlider -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO test
