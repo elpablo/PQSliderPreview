@@ -69,7 +69,7 @@
 
 - (void)lastPreviewedImage:(PQSliderPreview *)sender {
     NSString *slider = sender.tag ? @"PDF Previewer" : @"Image Previewer";
-    NSLog(@"'%@' - Last previewed index: %d", slider, sender.lastIndexPreviewed);
+    NSLog(@"'%@' - Last previewed index: %ld", slider, (long)sender.lastIndexPreviewed);
 }
 
 - (IBAction)swapContent:(id)sender {
