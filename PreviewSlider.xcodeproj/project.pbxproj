@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010723461B138688007DFAE1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 010723451B138688007DFAE1 /* Default-568h@2x.png */; };
 		50443522135F672400C3574A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50443521135F672400C3574A /* UIKit.framework */; };
 		50443524135F672400C3574A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50443523135F672400C3574A /* Foundation.framework */; };
 		50443526135F672400C3574A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50443525135F672400C3574A /* CoreGraphics.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		010723451B138688007DFAE1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5044351D135F672400C3574A /* PreviewSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreviewSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50443521135F672400C3574A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		50443523135F672400C3574A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,6 +92,7 @@
 		50443512135F672400C3574A = {
 			isa = PBXGroup;
 			children = (
+				010723451B138688007DFAE1 /* Default-568h@2x.png */,
 				50443527135F672400C3574A /* PreviewSlider */,
 				50443520135F672400C3574A /* Frameworks */,
 				5044351E135F672400C3574A /* Products */,
@@ -239,6 +242,7 @@
 				5044353B135F672400C3574A /* PreviewSliderViewController.xib in Resources */,
 				50443544135F673200C3574A /* MainWindow-iPad.xib in Resources */,
 				50E1B4DA13605E6F00DF4228 /* PQSliderPreview.pdf in Resources */,
+				010723461B138688007DFAE1 /* Default-568h@2x.png in Resources */,
 				50E1B4ED13606CE800DF4228 /* PQSliderPreview-01.png in Resources */,
 				50E1B4EE13606CE800DF4228 /* PQSliderPreview-02.png in Resources */,
 				50E1B4EF13606CE800DF4228 /* PQSliderPreview-03.png in Resources */,
